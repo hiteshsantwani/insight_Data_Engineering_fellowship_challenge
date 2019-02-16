@@ -51,29 +51,3 @@ BENZTROPINE MESYLATE,1,1500
 AMBIEN,2,300
 ```
 
-## Repo directory structure
-
-The directory structure for your repo should look like this:
-
-├── README.md 
-├── run.sh
-├── src
-│   └── pharmacy-counting.py
-├── input
-│   └── itcont.txt
-├── output
-|   └── top_cost_drug.txt
-├── insight_testsuite
-└── run_tests.sh
-└── tests
-└── test_1
-|   ├── input
-|   │   └── itcont.txt
-|   |__ output
-|   │   └── top_cost_drug.txt
-├── your-own-test_1
-├── input
-│   └── your-own-input-for-itcont.txt
-|── output
-└── top_cost_drug.txt
-
