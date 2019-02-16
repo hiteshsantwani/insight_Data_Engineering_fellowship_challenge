@@ -19,3 +19,23 @@ AMBIEN,2,300
 """
 
 
+input_file_Name = '/Users/hiteshsantwani/Desktop/Insight Fellowship Coding challenge/MySolution/input/itcont.txt'
+output_file_Name = '/Users/hiteshsantwani/Desktop/Insight Fellowship Coding challenge/MySolution/output/top_cost_drug.txt'
+
+#algo:
+
+#read input file
+
+# we need for each drug how many doctors prescribed it and how much is the total cost
+
+# NO PANDAS!
+
+# constraints algo sould scale up to millions of records
+
+# can not use sorting because that would need loading of whole data in memory
+
+# cannot use spark for parallelism
+
+# Need to do it in O(n) time
+
+# lets map each drug to the doctor that prescribed it using Dictionary and while doing so we can add the cost as well
