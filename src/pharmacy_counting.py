@@ -30,6 +30,7 @@ cost_dictionary = dict()
 
 ##############################
 # Unit testable methods
+
 def process_input_file(input_file_Name):
 
     lines_count = 0
@@ -65,9 +66,13 @@ def create_output(output_file_Name):
             next_line = ','.join([drug, str(len(names_dictionary[drug])), str(cost_dictionary[drug])])
             next_line += '\n'
             output.write(bytes(next_line, 'utf8'))
+
+        output.close()
+
 ################################
 
-input_file_Name = '/Users/hiteshsantwani/Desktop/Insight Fellowship Coding challenge/MySolution2/insight_Data_Engineering_fellowship_challenge/input/de_cc_data.txt'
+#input_file_Name = '/Users/hiteshsantwani/Desktop/Insight Fellowship Coding challenge/MySolution2/insight_Data_Engineering_fellowship_challenge/input/de_cc_data.txt'
+input_file_Name = '/Users/hiteshsantwani/Desktop/Insight Fellowship Coding challenge/MySolution2/insight_Data_Engineering_fellowship_challenge/insight_testsuite/tests/test_1/input/input_pandas'
 output_file_Name = '/Users/hiteshsantwani/Desktop/Insight Fellowship Coding challenge/MySolution2/insight_Data_Engineering_fellowship_challenge/output/top_cost_drug.txt'
 
 
