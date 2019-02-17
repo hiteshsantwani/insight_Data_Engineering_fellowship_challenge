@@ -45,7 +45,7 @@ lines_count = 0
 names_dictionary = dict()
 cost_dictionary = dict()
 
-with open(input_file_Name, 'rb') as input:
+with open(input_file_Name, 'r') as input:
     entry = input.readline()
     entry = input.readline()
     while len(entry) > 0:
@@ -53,7 +53,5 @@ with open(input_file_Name, 'rb') as input:
 
         entry = entry.split(',')
         doctor_name = ' '.join(entry[1:3])
-        names_dictionary[entry[3]].add(doctor)
-        cost_dictionary[entry[3]] += double(entry[-1])
-
-
+        names_dictionary[entry[3]].add(doctor_name)
+        cost_dictionary[entry[3]] += cost_dictionary(entry[-1])
