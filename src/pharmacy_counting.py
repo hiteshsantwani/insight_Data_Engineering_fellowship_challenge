@@ -17,18 +17,20 @@ BENZTROPINE MESYLATE,1,1500
 AMBIEN,2,300
 
 """
+
+##############################
+# Global Constants
+ENCODING = 'utf8'
 Three = 3
 ONE = 1
 
-input_file_Name = '/Users/hiteshsantwani/Desktop/Insight Fellowship Coding challenge/MySolution2/insight_Data_Engineering_fellowship_challenge/input/de_cc_data.txt'
-output_file_Name = '/Users/hiteshsantwani/Desktop/Insight Fellowship Coding challenge/MySolution2/insight_Data_Engineering_fellowship_challenge/output/top_cost_drug.txt'
-
-
 names_dictionary = dict(set())
 cost_dictionary = dict()
+##############################
 
-
-def process_input_file():
+##############################
+# Unit testable methods
+def process_input_file(input_file_Name):
 
     lines_count = 0
 
@@ -39,7 +41,7 @@ def process_input_file():
 
         while len(entry) > 0:
 
-            entry = entry.decode('utf8')
+            entry = entry.decode('%s' % ENCODING)
             lines_count += ONE
 
             entry = entry.split(',')
@@ -55,8 +57,7 @@ def process_input_file():
             entry = input.readline()
     return lines_count
 
-
-def create_output():
+def create_output(output_file_Name):
     with open(output_file_Name, 'wb') as output:
         output.write(b'drug_name,num_prescriber,total_cost\n')
 
@@ -64,14 +65,15 @@ def create_output():
             next_line = ','.join([drug, str(len(names_dictionary[drug])), str(cost_dictionary[drug])])
             next_line += '\n'
             output.write(bytes(next_line, 'utf8'))
+################################
+
+input_file_Name = '/Users/hiteshsantwani/Desktop/Insight Fellowship Coding challenge/MySolution2/insight_Data_Engineering_fellowship_challenge/input/de_cc_data.txt'
+output_file_Name = '/Users/hiteshsantwani/Desktop/Insight Fellowship Coding challenge/MySolution2/insight_Data_Engineering_fellowship_challenge/output/top_cost_drug.txt'
 
 
-
-print("number of lines processed: ", process_input_file())
+print("number of lines processed: ", process_input_file(input_file_Name))
 
 # start dumping file to output location
-create_output()
-
-
+create_output(output_file_Name)
 
 # It takes one minute to process 24 million records
