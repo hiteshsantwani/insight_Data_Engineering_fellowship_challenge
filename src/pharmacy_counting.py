@@ -70,12 +70,12 @@ print("number of lines processed: ", lines_count)
 # start dumping file to output location
 
 with open(output_file_Name, 'wb') as output:
+    output.write(b'drug_name,num_prescriber,total_cost\n')
 
     for drug in cost_dictionary.keys():
         next_line = ','.join([drug, str(len(names_dictionary[drug])), str(cost_dictionary[drug])])
         next_line += '\n'
         output.write(bytes(next_line, 'utf8'))
-
 
 
 
