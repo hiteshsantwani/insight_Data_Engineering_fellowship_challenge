@@ -23,62 +23,54 @@ ONE = 1
 input_file_Name = '/Users/hiteshsantwani/Desktop/Insight Fellowship Coding challenge/MySolution2/insight_Data_Engineering_fellowship_challenge/input/de_cc_data.txt'
 output_file_Name = '/Users/hiteshsantwani/Desktop/Insight Fellowship Coding challenge/MySolution2/insight_Data_Engineering_fellowship_challenge/output/top_cost_drug.txt'
 
-#algo:
-
-#read input file
-
-# we need for each drug how many doctors prescribed it and how much is the total cost
-
-# NO PANDAS!
-
-# constraints algo sould scale up to millions of records
-
-# can not use sorting because that would need loading of whole data in memory
-
-# cannot use spark for parallelism
-
-# Need to do it in O(n) time
-
-# lets map each drug to the doctor that prescribed it using Dictionary and while doing so we can add the cost as well
-
-lines_count = 0
 
 names_dictionary = dict(set())
 cost_dictionary = dict()
 
-with open(input_file_Name, 'rb') as input:
 
-    input.__next__()
-    entry = input.readline()
+def process_input_file():
 
-    while len(entry) > 0:
+    lines_count = 0
 
-        entry = entry.decode('utf8')
-        lines_count += ONE
+    with open(input_file_Name, 'rb') as input:
 
-        entry = entry.split(',')
-        doctor_name = ' '.join(entry[ONE:Three])
-
-        try:
-            names_dictionary[entry[Three]].add(doctor_name)
-            cost_dictionary[entry[Three]] += float(entry[-ONE])
-        except KeyError:
-            names_dictionary[entry[Three]] = {doctor_name}
-            cost_dictionary[entry[Three]] = float(entry[-ONE])
-
+        input.__next__()
         entry = input.readline()
 
+        while len(entry) > 0:
+
+            entry = entry.decode('utf8')
+            lines_count += ONE
+
+            entry = entry.split(',')
+            doctor_name = ' '.join(entry[ONE:Three])
+
+            try:
+                names_dictionary[entry[Three]].add(doctor_name)
+                cost_dictionary[entry[Three]] += float(entry[-ONE])
+            except KeyError:
+                names_dictionary[entry[Three]] = {doctor_name}
+                cost_dictionary[entry[Three]] = float(entry[-ONE])
+
+            entry = input.readline()
+    return lines_count
+
+
+def create_output():
+    with open(output_file_Name, 'wb') as output:
+        output.write(b'drug_name,num_prescriber,total_cost\n')
+
+        for drug in cost_dictionary.keys():
+            next_line = ','.join([drug, str(len(names_dictionary[drug])), str(cost_dictionary[drug])])
+            next_line += '\n'
+            output.write(bytes(next_line, 'utf8'))
+
+
+
+print("number of lines processed: ", process_input_file())
 
 # start dumping file to output location
-print("number of lines processed: ", lines_count)
-
-with open(output_file_Name, 'wb') as output:
-    output.write(b'drug_name,num_prescriber,total_cost\n')
-
-    for drug in cost_dictionary.keys():
-        next_line = ','.join([drug, str(len(names_dictionary[drug])), str(cost_dictionary[drug])])
-        next_line += '\n'
-        output.write(bytes(next_line, 'utf8'))
+create_output()
 
 
 
