@@ -19,8 +19,8 @@ AMBIEN,2,300
 """
 
 
-input_file_Name = '/Users/hiteshsantwani/Desktop/Insight Fellowship Coding challenge/MySolution/input/itcont.txt'
-output_file_Name = '/Users/hiteshsantwani/Desktop/Insight Fellowship Coding challenge/MySolution/output/top_cost_drug.txt'
+input_file_Name = '/Users/hiteshsantwani/Desktop/Insight Fellowship Coding challenge/MySolution2/insight_Data_Engineering_fellowship_challenge/input/de_cc_data.txt'
+output_file_Name = '/Users/hiteshsantwani/Desktop/Insight Fellowship Coding challenge/MySolution2/insight_Data_Engineering_fellowship_challenge/output/top_cost_drug.txt'
 
 #algo:
 
@@ -52,7 +52,7 @@ with open(input_file_Name, 'rb') as input:
     while len(entry) > 0:
         entry = entry.decode('utf8')
         lines_count += 1
-        print(entry)
+
         entry = entry.split(',')
         doctor_name = ' '.join(entry[1:3])
 
@@ -65,7 +65,7 @@ with open(input_file_Name, 'rb') as input:
 
         entry = input.readline()
 
-print("number of lines processed: ", lines_count)
+        print("number of lines processed: ", lines_count)
 
 # start dumping file to output location
 
