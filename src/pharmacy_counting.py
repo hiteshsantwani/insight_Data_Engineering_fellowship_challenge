@@ -45,13 +45,25 @@ lines_count = 0
 names_dictionary = dict()
 cost_dictionary = dict()
 
-with open(input_file_Name, 'r') as input:
+with open(input_file_Name, 'rb') as input:
     entry = input.readline()
     entry = input.readline()
-    while len(entry) > 0:
-        lines_count += 1
 
+    while len(entry) > 0:
+        entry = entry.decode('utf8')
+        lines_count += 1
+        print(entry)
         entry = entry.split(',')
         doctor_name = ' '.join(entry[1:3])
-        names_dictionary[entry[3]].add(doctor_name)
-        cost_dictionary[entry[3]] += cost_dictionary(entry[-1])
+
+        try:
+            names_dictionary[entry[3]].add(doctor_name)
+            cost_dictionary[entry[3]] += float(entry[-1])
+        except KeyError:
+            names_dictionary[entry[3]] = {doctor_name}
+            cost_dictionary[entry[3]] = float(entry[-1])
+
+        entry = input.readline()
+
+
+
