@@ -39,3 +39,21 @@ output_file_Name = '/Users/hiteshsantwani/Desktop/Insight Fellowship Coding chal
 # Need to do it in O(n) time
 
 # lets map each drug to the doctor that prescribed it using Dictionary and while doing so we can add the cost as well
+
+lines_count = 0
+
+names_dictionary = dict()
+cost_dictionary = dict()
+
+with open(input_file_Name, 'rb') as input:
+    entry = input.readline()
+    entry = input.readline()
+    while len(entry) > 0:
+        lines_count += 1
+
+        entry = entry.split(',')
+        doctor_name = ' '.join(entry[1:3])
+        names_dictionary[entry[3]].add(doctor)
+        cost_dictionary[entry[3]] += double(entry[-1])
+
+
