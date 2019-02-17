@@ -65,5 +65,17 @@ with open(input_file_Name, 'rb') as input:
 
         entry = input.readline()
 
+print("number of lines processed: ", lines_count)
+
+# start dumping file to output location
+
+with open(output_file_Name, 'wb') as output:
+
+    for drug in cost_dictionary.keys():
+        next_line = ','.join([drug, str(len(names_dictionary[drug])), str(cost_dictionary[drug])])
+        next_line += '\n'
+        output.write(bytes(next_line, 'utf8'))
+
+
 
 
