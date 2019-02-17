@@ -18,7 +18,6 @@ AMBIEN,2,300
 
 """
 
-
 input_file_Name = '/Users/hiteshsantwani/Desktop/Insight Fellowship Coding challenge/MySolution2/insight_Data_Engineering_fellowship_challenge/input/de_cc_data.txt'
 output_file_Name = '/Users/hiteshsantwani/Desktop/Insight Fellowship Coding challenge/MySolution2/insight_Data_Engineering_fellowship_challenge/output/top_cost_drug.txt'
 
@@ -42,7 +41,7 @@ output_file_Name = '/Users/hiteshsantwani/Desktop/Insight Fellowship Coding chal
 
 lines_count = 0
 
-names_dictionary = dict()
+names_dictionary = dict(set())
 cost_dictionary = dict()
 
 with open(input_file_Name, 'rb') as input:
