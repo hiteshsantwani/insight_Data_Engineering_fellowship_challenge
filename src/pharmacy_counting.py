@@ -65,9 +65,9 @@ with open(input_file_Name, 'rb') as input:
 
         entry = input.readline()
 
-        print("number of lines processed: ", lines_count)
 
 # start dumping file to output location
+print("number of lines processed: ", lines_count)
 
 with open(output_file_Name, 'wb') as output:
     output.write(b'drug_name,num_prescriber,total_cost\n')
@@ -79,3 +79,4 @@ with open(output_file_Name, 'wb') as output:
 
 
 
+# It takes one minute to process 24 million records
