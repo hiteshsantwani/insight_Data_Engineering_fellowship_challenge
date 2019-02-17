@@ -17,6 +17,8 @@ BENZTROPINE MESYLATE,1,1500
 AMBIEN,2,300
 
 """
+Three = 3
+ONE = 1
 
 input_file_Name = '/Users/hiteshsantwani/Desktop/Insight Fellowship Coding challenge/MySolution2/insight_Data_Engineering_fellowship_challenge/input/de_cc_data.txt'
 output_file_Name = '/Users/hiteshsantwani/Desktop/Insight Fellowship Coding challenge/MySolution2/insight_Data_Engineering_fellowship_challenge/output/top_cost_drug.txt'
@@ -45,22 +47,24 @@ names_dictionary = dict(set())
 cost_dictionary = dict()
 
 with open(input_file_Name, 'rb') as input:
-    entry = input.readline()
+
+    input.__next__()
     entry = input.readline()
 
     while len(entry) > 0:
+
         entry = entry.decode('utf8')
-        lines_count += 1
+        lines_count += ONE
 
         entry = entry.split(',')
-        doctor_name = ' '.join(entry[1:3])
+        doctor_name = ' '.join(entry[ONE:Three])
 
         try:
-            names_dictionary[entry[3]].add(doctor_name)
-            cost_dictionary[entry[3]] += float(entry[-1])
+            names_dictionary[entry[Three]].add(doctor_name)
+            cost_dictionary[entry[Three]] += float(entry[-ONE])
         except KeyError:
-            names_dictionary[entry[3]] = {doctor_name}
-            cost_dictionary[entry[3]] = float(entry[-1])
+            names_dictionary[entry[Three]] = {doctor_name}
+            cost_dictionary[entry[Three]] = float(entry[-ONE])
 
         entry = input.readline()
 
