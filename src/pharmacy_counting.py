@@ -98,7 +98,4 @@ def create_output(output_file_Name):
 
 ################################
 
-
-
-
 # It takes one minute to process 24 million records
