@@ -16,7 +16,8 @@ class validate_Op_with_Pandas(unittest.TestCase):
 
     def test_Comparison(self):
         file = Path().absolute()
-        path = str(file) + "/input/input_pandas"
+        #path = str(file) + "/input/input_pandas"
+        path = "/Users/hiteshsantwani/Desktop/Insight Fellowship Coding challenge/MySolution2/insight_Data_Engineering_fellowship_challenge/input/de_cc_data.txt"
         df = solutionUsingPandas(path)
         outputpath = str(file) + "/output/output_pandas"
         df.to_csv(outputpath, index=None, header=True)

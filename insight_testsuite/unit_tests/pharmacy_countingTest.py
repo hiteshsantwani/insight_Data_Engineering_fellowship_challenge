@@ -15,6 +15,7 @@ class test_my_solution(unittest.TestCase):
         path = str(file) + "/input/itcont.txt"
 
         lines_count = process_input_file(path)
+        print(lines_count)
         assert lines_count != 0
 
 
