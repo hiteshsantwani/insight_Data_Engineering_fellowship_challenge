@@ -26,15 +26,7 @@ class validate_Op_with_Pandas(unittest.TestCase):
 
         create_output(op)
 
+        if open(path, 'r').read() == open(op, 'r').read():
+            assert True
 
-        with open(path) as f1:
-            with open(op) as f2:
-                if f1.read() == f2.read():
-                    assert True
-                    f1.close()
-                    f2.close()
-                else:
-                    assert False
-                    f1.close()
-                    f2.close()
 
