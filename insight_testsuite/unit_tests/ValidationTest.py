@@ -1,5 +1,5 @@
 # Load the Pandas libraries with alias 'pd'
-from __future__ import with_statement
+
 import unittest
 from pathlib import Path
 from src.pharmacy_counting_using_pandas import solutionUsingPandas
@@ -11,7 +11,7 @@ class validate_Op_with_Pandas(unittest.TestCase):
         file = Path().absolute()
         path = str(file) + "/input/input_pandas"
         df = solutionUsingPandas(path)
-        print(df.iloc[0, 0])
+
         assert df.iloc[0, 0] == "ABILIFY"
 
     def test_Comparison(self):
