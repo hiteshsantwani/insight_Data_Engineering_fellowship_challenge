@@ -5,9 +5,6 @@ from pathlib import Path
 from src.pharmacy_counting import process_input_file, create_output, handle_misaligned_record
 
 
-# start dumping file to output location
-
-
 class test_my_solution(unittest.TestCase):
 
     def test_process_input_file(self):
@@ -32,8 +29,11 @@ class test_my_solution(unittest.TestCase):
                 f1.close()
 
     def test_handle_misaligned_record(self):
-        record = "'1962514471,ABAD,JORGE,\"PANCRELIPASE 5,000\",669.89\"'"
-        record = handle_misaligned_record(record)
-        assert record.count(',') == 4
+        file = Path().absolute()
+        path = str(file) + "/input/dirty_data"
+        with open(path) as f1:
+            record = f1.readline()
+            record = handle_misaligned_record(record)
+            assert record.count(',') == 4
 
 
