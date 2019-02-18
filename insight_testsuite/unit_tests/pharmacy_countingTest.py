@@ -2,7 +2,7 @@
 
 import unittest
 from pathlib import Path
-from src.pharmacy_counting import process_input_file, create_output
+from src.pharmacy_counting import process_input_file, create_output, handle_misaligned_record
 
 
 # start dumping file to output location
@@ -31,5 +31,9 @@ class test_my_solution(unittest.TestCase):
                 assert False
                 f1.close()
 
+    def test_handle_misaligned_record(self):
+        record = "'1962514471,ABAD,JORGE,\"PANCRELIPASE 5,000\",669.89\"'"
+        record = handle_misaligned_record(record)
+        assert record.count(',') == 4
 
 

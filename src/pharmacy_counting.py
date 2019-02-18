@@ -19,6 +19,10 @@ AMBIEN,2,300
 """
 import os
 import sys
+
+ONE = 1
+
+ZERO = 0
 sys.path.insert(0, os.path.basename(__file__))
 
 ##############################
@@ -34,17 +38,31 @@ cost_dictionary = dict()
 ##############################
 # Unit testable methods
 
+"""
+
+function to remove extra ','
+
+Parameters
+----------
+record : a single record from input file
+
+Returns
+-------
+record
+    a record with no extra ','
+
+"""
 def handle_misaligned_record(record):
 
-    if record.find('"') >= 0:
+    if record.find('"') >= ZERO:
         start = record.find('"')
 
-        while start >= 0:
-            end = record[start + 1:].find('"')
-            if end >= 0:
-                end = end + start + 1
-                record = record[:start] + record[start:end + 1].replace(',', '') + record[end + 1:]
-            start = record[end + 1:].find('"')
+        while start >= ZERO:
+            end = record[start + ONE:].find('"')
+            if end >= ZERO:
+                end = end + start + ONE
+                record = record[:start] + record[start:end + ONE].replace(',', '') + record[end + ONE:]
+            start = record[end + ONE:].find('"')
 
     return record
 
