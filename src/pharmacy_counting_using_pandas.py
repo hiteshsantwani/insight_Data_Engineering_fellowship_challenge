@@ -24,4 +24,3 @@ input_file_df_drug_cost['name'] = input_file_df.groupby('drug_name').name.unique
 input_file_df_drug_cost['num_prescriber'] = input_file_df_drug_cost["name"].apply(lambda x: len(x))
 input_file_df = input_file_df_drug_cost.drop(columns = ['name']).reset_index().rename(columns = {'sum':'total_cost'})
 input_file_df = input_file_df[['drug_name', 'num_prescriber', 'total_cost']]
-pass
