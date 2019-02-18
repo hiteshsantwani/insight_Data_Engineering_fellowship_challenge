@@ -34,6 +34,20 @@ cost_dictionary = dict()
 ##############################
 # Unit testable methods
 
+"""
+
+function to process input file and create the solution
+
+Parameters
+----------
+input_file_df : location of the input file
+
+Returns
+-------
+int
+    number of lines processed
+    
+"""
 def process_input_file(input_file_Name):
 
     lines_count = 0
@@ -61,6 +75,16 @@ def process_input_file(input_file_Name):
             entry = input.readline()
     return lines_count
 
+"""
+
+function to generate the solution using pandas
+
+Parameters
+----------
+output_file_Name : location of the output file
+
+"""
+
 def create_output(output_file_Name):
     with open(output_file_Name, 'wb') as output:
         output.write(b'drug_name,num_prescriber,total_cost\n')
@@ -74,14 +98,7 @@ def create_output(output_file_Name):
 
 ################################
 
-input_file_Name = '/Users/hiteshsantwani/Desktop/Insight Fellowship Coding challenge/MySolution2/insight_Data_Engineering_fellowship_challenge/input/de_cc_data.txt'
-input_file_Name_pandas = '/Users/hiteshsantwani/Desktop/Insight Fellowship Coding challenge/MySolution2/insight_Data_Engineering_fellowship_challenge/insight_testsuite/tests/test_1/input/input_pandas'
-output_file_Name = '/Users/hiteshsantwani/Desktop/Insight Fellowship Coding challenge/MySolution2/insight_Data_Engineering_fellowship_challenge/output/top_cost_drug.txt'
 
 
-print("number of lines processed: ", process_input_file(input_file_Name_pandas))
-
-# start dumping file to output location
-create_output(output_file_Name)
 
 # It takes one minute to process 24 million records

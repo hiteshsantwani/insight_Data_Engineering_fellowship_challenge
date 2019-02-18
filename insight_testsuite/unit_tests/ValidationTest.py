@@ -1,8 +1,7 @@
 # Load the Pandas libraries with alias 'pd'
 
 import unittest
-import pandas as pd
-import numpy as np
+
 from pathlib import Path
 
 from src.pharmacy_counting_using_pandas import solutionUsingPandas
@@ -23,5 +22,7 @@ class validate_Op_with_Pandas(unittest.TestCase):
         df = solutionUsingPandas(path)
         outputpath = str(file) + "/output/output_pandas"
         df.to_csv(outputpath, index=None, header=True)
+
+
 
 
