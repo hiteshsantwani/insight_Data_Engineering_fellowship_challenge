@@ -99,8 +99,8 @@ def create_output(output_file_Name):
 ################################
 
 # It takes one minute to process 24 million records
-inputfile = "/Users/hiteshsantwani/Desktop/Insight Fellowship Coding challenge/MySolution2/insight_Data_Engineering_fellowship_challenge/input/de_cc_data.txt"
-outputfile = "/Users/hiteshsantwani/Desktop/Insight Fellowship Coding challenge/MySolution2/insight_Data_Engineering_fellowship_challenge/output/top_drug_cost_test"
+#inputfile = "/Users/hiteshsantwani/Desktop/Insight Fellowship Coding challenge/MySolution2/insight_Data_Engineering_fellowship_challenge/input/de_cc_data.txt"
+#outputfile = "/Users/hiteshsantwani/Desktop/Insight Fellowship Coding challenge/MySolution2/insight_Data_Engineering_fellowship_challenge/output/top_drug_cost_test"
 
-print(process_input_file(inputfile))
-create_output(outputfile)
+#print(process_input_file(inputfile))
+#create_output(outputfile)
