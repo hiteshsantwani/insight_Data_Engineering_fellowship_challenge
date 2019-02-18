@@ -22,7 +22,7 @@ Returns
 DataFrame conating the results
 
 """
-def solutionUsingPandas(input_file_df):
+def solutionUsingPandas(input_file_path):
 
     mapping = {
         'id': 'id',
@@ -30,7 +30,8 @@ def solutionUsingPandas(input_file_df):
         'prescriber_first_name': 'name',
         'drug_name': 'drug_name',
         'drug_cost': 'drug_cost'}
-    print(input_file_df.head())
+
+    input_file_df = pd.read_csv(input_file_path)
     input_file_df = input_file_df.set_index('id').groupby(mapping, axis=1).sum()
     input_file_df_drug_cost = input_file_df.groupby('drug_name')['drug_cost'].agg([np.sum])
     input_file_df_drug_cost['name'] = input_file_df.groupby('drug_name').name.unique()
