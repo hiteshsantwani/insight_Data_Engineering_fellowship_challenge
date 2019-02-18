@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5c16c96f-9759-4e3e-9325-80d149bb462a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/insight_testsuite/unit_tests/ValidationTest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/insight_testsuite/unit_tests/pharmacy_countingTest.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/insight_testsuite/tests/test_1/input/input_pandas" beforeDir="false" afterPath="$PROJECT_DIR$/insight_testsuite/unit_tests/input/input_pandas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pharmacy_counting.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/pharmacy_counting.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pharmacy_counting_using_pandas.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/pharmacy_counting_using_pandas.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -56,27 +62,29 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="input_pandas" value="2" />
-          <entry key="py" value="3" />
-          <entry key="txt" value="9" />
+          <entry key="md" value="1" />
+          <entry key="py" value="19" />
+          <entry key="txt" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PLAIN_TEXT" value="11" />
-          <entry key="Python" value="3" />
+          <entry key="Markdown" value="1" />
+          <entry key="PLAIN_TEXT" value="17" />
+          <entry key="Python" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="input_pandas" value="3" />
-          <entry key="py" value="1336" />
-          <entry key="txt" value="184" />
+          <entry key="py" value="2393" />
+          <entry key="txt" value="219" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="187" />
-          <entry key="Python" value="1336" />
+          <entry key="PLAIN_TEXT" value="222" />
+          <entry key="Python" value="2393" />
         </counts>
       </usages-collector>
     </session>
@@ -84,37 +92,13 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/input/itcont.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="45" selection-start-column="24" selection-end-column="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pharmacy_counting.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="371">
-              <caret line="79" lean-forward="true" selection-start-line="79" selection-end-line="79" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/output/top_cost_drug.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="12" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/insight_testsuite/tests/test_1/output/top_cost_drug.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="12" lean-forward="true" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+            <state relative-caret-position="-87">
+              <caret line="36" column="22" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="22" />
+              <folding>
+                <element signature="e#511#520#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -122,17 +106,36 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/pharmacy_counting_using_pandas.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" selection-start-line="21" selection-end-line="21" />
+            <state relative-caret-position="417">
+              <caret line="40" column="24" selection-start-line="40" selection-start-column="24" selection-end-line="40" selection-end-column="24" />
+              <folding>
+                <element signature="e#143#162#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/insight_testsuite/tests/test_1/input/input_pandas">
+        <entry file="file://$PROJECT_DIR$/insight_testsuite/unit_tests/ValidationTest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="65" selection-start-column="56" selection-end-column="65" />
+            <state relative-caret-position="165">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
+              <folding>
+                <element signature="e#45#60#0" expanded="true" />
+                <marker date="1550465934652" expanded="true" signature="239:249" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/insight_testsuite/unit_tests/pharmacy_countingTest.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
+              <folding>
+                <element signature="e#45#60#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -146,6 +149,11 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>ABILIFY</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -157,6 +165,8 @@
         <option value="$PROJECT_DIR$/output/top_cost_drug.txt" />
         <option value="$PROJECT_DIR$/insight_testsuite/tests/test_1/input/input_pandas" />
         <option value="$PROJECT_DIR$/src/pharmacy_counting.py" />
+        <option value="$PROJECT_DIR$/insight_testsuite/unit_tests/pharmacy_countingTest.py" />
+        <option value="$PROJECT_DIR$/insight_testsuite/unit_tests/ValidationTest.py" />
         <option value="$PROJECT_DIR$/src/pharmacy_counting_using_pandas.py" />
       </list>
     </option>
@@ -180,46 +190,18 @@
             <path>
               <item name="insight_Data_Engineering_fellowship_challenge" type="b2602c69:ProjectViewProjectNode" />
               <item name="insight_Data_Engineering_fellowship_challenge" type="462c0819:PsiDirectoryNode" />
-              <item name="input" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="insight_Data_Engineering_fellowship_challenge" type="b2602c69:ProjectViewProjectNode" />
-              <item name="insight_Data_Engineering_fellowship_challenge" type="462c0819:PsiDirectoryNode" />
               <item name="insight_testsuite" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="insight_Data_Engineering_fellowship_challenge" type="b2602c69:ProjectViewProjectNode" />
               <item name="insight_Data_Engineering_fellowship_challenge" type="462c0819:PsiDirectoryNode" />
               <item name="insight_testsuite" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
+              <item name="unit_tests" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="insight_Data_Engineering_fellowship_challenge" type="b2602c69:ProjectViewProjectNode" />
               <item name="insight_Data_Engineering_fellowship_challenge" type="462c0819:PsiDirectoryNode" />
-              <item name="insight_testsuite" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-              <item name="test_1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="insight_Data_Engineering_fellowship_challenge" type="b2602c69:ProjectViewProjectNode" />
-              <item name="insight_Data_Engineering_fellowship_challenge" type="462c0819:PsiDirectoryNode" />
-              <item name="insight_testsuite" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-              <item name="test_1" type="462c0819:PsiDirectoryNode" />
-              <item name="input" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="insight_Data_Engineering_fellowship_challenge" type="b2602c69:ProjectViewProjectNode" />
-              <item name="insight_Data_Engineering_fellowship_challenge" type="462c0819:PsiDirectoryNode" />
-              <item name="insight_testsuite" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-              <item name="test_1" type="462c0819:PsiDirectoryNode" />
-              <item name="output" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="insight_Data_Engineering_fellowship_challenge" type="b2602c69:ProjectViewProjectNode" />
-              <item name="insight_Data_Engineering_fellowship_challenge" type="462c0819:PsiDirectoryNode" />
-              <item name="output" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -233,6 +215,9 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/insight_testsuite/unit_tests/input" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/input" />
@@ -250,7 +235,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.pharmacy_counting_using_pandas">
     <configuration name="Unnamed" type="PythonConfigurationType" factoryName="Python">
       <module name="MySolution" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -259,11 +244,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="$USER_HOME$/.conda/envs/untitled1/bin/python" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/insight_testsuite/unit_tests" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/pharmacy_counting.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/insight_testsuite/unit_tests/ValidationTest.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -272,6 +257,31 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="pharmacy_counting_using_pandas" type="PythonConfigurationType" factoryName="Python">
+      <module name="MySolution" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/pharmacy_counting_using_pandas.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.Unnamed" />
+      <item itemvalue="Python.pharmacy_counting_using_pandas" />
+    </list>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -375,20 +385,41 @@
       <option name="project" value="LOCAL" />
       <updated>1550385827893</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Refactoring and Validation using pandas">
+      <created>1550457453132</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1550457453132</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Refactoring and Validation using pandas">
+      <created>1550457509818</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1550457509818</updated>
+    </task>
+    <task id="LOCAL-00016" summary="validation successfull">
+      <created>1550460431160</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1550460431160</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24947146" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49964765" weight="0.32891566" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.3060241" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32891566" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49964765" visible="true" weight="0.32891566" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4506024" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -405,9 +436,9 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49964765" weight="0.32891566" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3060241" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32891566" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49964765" visible="true" weight="0.32891566" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4506024" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -432,21 +463,17 @@
     <MESSAGE value="Bug fix: Unique doctor names" />
     <MESSAGE value="Refactoring" />
     <MESSAGE value="Refactoring and Validation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactoring and Validation" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/src/pharmacy_counting_using_pandas.py</url>
-          <line>21</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Refactoring and Validation using pandas" />
+    <MESSAGE value="validation successfull" />
+    <option name="LAST_COMMIT_MESSAGE" value="validation successfull" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>input_file_df.groupby('drug_name')</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>input_file_df.groupby('drug_name')['name'].count()</expression-string>
         <language-id>Python</language-id>
@@ -504,12 +531,57 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/output/top_cost_drug.txt">
+    <entry file="file://$PROJECT_DIR$/insight_testsuite/unit_tests/input/input_pandas">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="12" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="12" />
+        <state>
+          <caret column="65" selection-start-column="56" selection-end-column="65" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.conda/envs/untitled1/lib/python3.6/site-packages/pandas/core/internals/construction.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="518" selection-start-line="518" selection-end-line="518" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.conda/envs/untitled1/lib/python3.6/site-packages/pandas/core/groupby/generic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="908" selection-start-line="908" selection-end-line="908" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.conda/envs/untitled1/lib/python3.6/site-packages/pandas/core/groupby/groupby.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="569" selection-start-line="569" selection-end-line="569" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.conda/envs/untitled1/lib/python3.6/site-packages/pandas/core/indexing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="226" selection-start-line="226" selection-end-line="226" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.conda/envs/untitled1/lib/python3.6/site-packages/pandas/core/generic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="5066" selection-start-line="5066" selection-end-line="5066" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/insight_testsuite/tests/test_1/output/top_cost_drug.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="35" selection-start-column="25" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/input/itcont.txt">
       <provider selected="true" editor-type-id="text-editor">
@@ -518,31 +590,69 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/top_cost_drug.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output/top_cost_drug.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="38" column="33" selection-start-line="38" selection-start-column="33" selection-end-line="38" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/top_cost_drug_pandas.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="27" lean-forward="true" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/pharmacy_counting.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="79" lean-forward="true" selection-start-line="79" selection-end-line="79" />
+        <state relative-caret-position="-87">
+          <caret line="36" column="22" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="22" />
+          <folding>
+            <element signature="e#511#520#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/insight_testsuite/tests/test_1/output/top_cost_drug.txt">
+    <entry file="file://$PROJECT_DIR$/insight_testsuite/unit_tests/ValidationTest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="12" lean-forward="true" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+        <state relative-caret-position="165">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#45#60#0" expanded="true" />
+            <marker date="1550465934652" expanded="true" signature="239:249" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/insight_testsuite/tests/test_1/input/input_pandas">
+    <entry file="file://$PROJECT_DIR$/insight_testsuite/unit_tests/pharmacy_countingTest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="65" selection-start-column="56" selection-end-column="65" />
+        <state relative-caret-position="165">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#45#60#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pharmacy_counting_using_pandas.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        <state relative-caret-position="417">
+          <caret line="40" column="24" selection-start-line="40" selection-start-column="24" selection-end-line="40" selection-end-column="24" />
+          <folding>
+            <element signature="e#143#162#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
