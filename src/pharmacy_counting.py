@@ -34,6 +34,20 @@ cost_dictionary = dict()
 ##############################
 # Unit testable methods
 
+def handle_misaligned_record(record):
+
+    if record.find('"') >= 0:
+        start = record.find('"')
+
+        while start >= 0:
+            end = record[start + 1:].find('"')
+            if end >= 0:
+                end = end + start + 1
+                record = record[:start] + record[start:end + 1].replace(',', '') + record[end + 1:]
+            start = record[end + 1:].find('"')
+
+    return record
+
 """
 
 function to process input file and create the solution
@@ -61,6 +75,8 @@ def process_input_file(input_file_Name):
 
             entry = entry.decode('%s' % ENCODING)
             lines_count += ONE
+
+            entry = handle_misaligned_record(entry)
 
             entry = entry.split(',')
             doctor_name = ' '.join(entry[ONE:Three])
@@ -99,8 +115,8 @@ def create_output(output_file_Name):
 ################################
 
 # It takes one minute to process 24 million records
-#inputfile = "/Users/hiteshsantwani/Desktop/Insight Fellowship Coding challenge/MySolution2/insight_Data_Engineering_fellowship_challenge/input/de_cc_data.txt"
-#outputfile = "/Users/hiteshsantwani/Desktop/Insight Fellowship Coding challenge/MySolution2/insight_Data_Engineering_fellowship_challenge/output/top_drug_cost_test"
+inputfile = "/Users/hiteshsantwani/Desktop/Insight Fellowship Coding challenge/MySolution2/insight_Data_Engineering_fellowship_challenge/input/de_cc_data.txt"
+outputfile = "/Users/hiteshsantwani/Desktop/Insight Fellowship Coding challenge/MySolution2/insight_Data_Engineering_fellowship_challenge/output/top_drug_cost_test"
 
-#print(process_input_file(inputfile))
-#create_output(outputfile)
+print(process_input_file(inputfile))
+create_output(outputfile)
