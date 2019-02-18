@@ -62,7 +62,7 @@ def create_output(output_file_Name):
     with open(output_file_Name, 'wb') as output:
         output.write(b'drug_name,num_prescriber,total_cost\n')
 
-        for drug in cost_dictionary.keys():
+        for drug in sorted(cost_dictionary.keys()):
             next_line = ','.join([drug, str(len(names_dictionary[drug])), str(cost_dictionary[drug])])
             next_line += '\n'
             output.write(bytes(next_line, 'utf8'))
@@ -76,7 +76,7 @@ input_file_Name_pandas = '/Users/hiteshsantwani/Desktop/Insight Fellowship Codin
 output_file_Name = '/Users/hiteshsantwani/Desktop/Insight Fellowship Coding challenge/MySolution2/insight_Data_Engineering_fellowship_challenge/output/top_cost_drug.txt'
 
 
-print("number of lines processed: ", process_input_file(input_file_Name))
+print("number of lines processed: ", process_input_file(input_file_Name_pandas))
 
 # start dumping file to output location
 create_output(output_file_Name)
