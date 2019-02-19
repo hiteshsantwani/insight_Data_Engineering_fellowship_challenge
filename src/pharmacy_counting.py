@@ -93,9 +93,6 @@ def process_input_file(input_file_Name):
             entry = entry.decode('%s' % ENCODING)
             lines_count += ONE
 
-            if lines_count % 10**6 == 0:
-                print('Lines Processed:', lines_count//10**6, 'million' )
-
             entry = handle_misaligned_record(entry)
 
             entry = entry.split(',')
@@ -107,6 +104,9 @@ def process_input_file(input_file_Name):
             except KeyError:
                 names_dictionary[entry[Three]] = {doctor_name}
                 cost_dictionary[entry[Three]] = float(entry[-ONE])
+
+            if lines_count % 10**6 == ZERO:
+                print('Lines Processed:', lines_count//10**6, 'million' )
 
             entry = input.readline()
     return lines_count
@@ -126,9 +126,9 @@ def create_output(output_file_Name):
         output.write(b'drug_name,num_prescriber,total_cost\n')
 
         for drug in sorted(cost_dictionary.keys()):
-            next_line = ','.join([drug, str(len(names_dictionary[drug])), str(cost_dictionary[drug])])
+            next_line = ','.join([drug, str(len(names_dictionary[drug])), str(round(cost_dictionary[drug], Three))])
             next_line += '\n'
-            output.write(bytes(next_line, 'utf8'))
+            output.write(bytes(next_line, ENCODING))
 
         output.close()
 
