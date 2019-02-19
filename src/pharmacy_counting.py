@@ -19,6 +19,7 @@ AMBIEN,2,300
 """
 import os
 import sys
+import time
 
 sys.path.insert(0, os.path.basename(__file__))
 
@@ -135,8 +136,15 @@ def create_output(output_file_Name):
 ################################
 
 # It takes one minute to process 24 million records
+
+#inputfile, outputfile = sys.argv[1:]
+
 inputfile = "/Users/hiteshsantwani/Desktop/Insight Fellowship Coding challenge/MySolution2/insight_Data_Engineering_fellowship_challenge/input/de_cc_data.txt"
 outputfile = "/Users/hiteshsantwani/Desktop/Insight Fellowship Coding challenge/MySolution2/insight_Data_Engineering_fellowship_challenge/output/top_drug_cost_test"
+print("Start")
+start = time.time()
+print('Total Lines Processed', process_input_file(inputfile))
+end = time.time()
 
-print(process_input_file(inputfile))
+print('It took: ', end - start, 'Seconds')
 create_output(outputfile)
