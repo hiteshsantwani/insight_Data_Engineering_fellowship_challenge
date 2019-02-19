@@ -20,16 +20,15 @@ AMBIEN,2,300
 import os
 import sys
 
-ONE = 1
-
-ZERO = 0
 sys.path.insert(0, os.path.basename(__file__))
 
 ##############################
 # Global Constants
 ENCODING = 'utf8'
-Three = 3
+
+ZERO = 0
 ONE = 1
+Three = 3
 
 names_dictionary = dict(set())
 cost_dictionary = dict()
@@ -82,17 +81,20 @@ int
 """
 def process_input_file(input_file_Name):
 
-    lines_count = 0
+    lines_count = ZERO
 
     with open(input_file_Name, 'rb') as input:
 
         input.__next__()
         entry = input.readline()
 
-        while len(entry) > 0:
+        while len(entry) > ZERO:
 
             entry = entry.decode('%s' % ENCODING)
             lines_count += ONE
+
+            if lines_count % 10**6 == 0:
+                print('Lines Processed:', lines_count//10**6, 'million' )
 
             entry = handle_misaligned_record(entry)
 
@@ -133,8 +135,8 @@ def create_output(output_file_Name):
 ################################
 
 # It takes one minute to process 24 million records
-#inputfile = "/Users/hiteshsantwani/Desktop/Insight Fellowship Coding challenge/MySolution2/insight_Data_Engineering_fellowship_challenge/input/de_cc_data.txt"
-#outputfile = "/Users/hiteshsantwani/Desktop/Insight Fellowship Coding challenge/MySolution2/insight_Data_Engineering_fellowship_challenge/output/top_drug_cost_test"
+inputfile = "/Users/hiteshsantwani/Desktop/Insight Fellowship Coding challenge/MySolution2/insight_Data_Engineering_fellowship_challenge/input/de_cc_data.txt"
+outputfile = "/Users/hiteshsantwani/Desktop/Insight Fellowship Coding challenge/MySolution2/insight_Data_Engineering_fellowship_challenge/output/top_drug_cost_test"
 
-#print(process_input_file(inputfile))
-#create_output(outputfile)
+print(process_input_file(inputfile))
+create_output(outputfile)
