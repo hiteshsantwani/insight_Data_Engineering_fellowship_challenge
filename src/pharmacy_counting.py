@@ -40,6 +40,22 @@ cost_dictionary = dict()
 
 """
 
+function to show head of output
+
+"""
+def peek():
+    # Open and print top 10 lines of the output file
+    with open(outputfile, 'rb') as output:
+        record = output.readline()
+        lineCount = ZERO
+        while len(record) > ZERO and lineCount < 10:
+            lineCount += ONE
+            print(record)
+            record = output.readline()
+
+
+"""
+
 function to remove extra ','
 
 Parameters
@@ -149,3 +165,5 @@ end = time.time()
 
 print('It took: ', end - start, 'Seconds')
 create_output(outputfile)
+
+peek()

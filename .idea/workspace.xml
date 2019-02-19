@@ -8,7 +8,6 @@
   <component name="ChangeListManager">
     <list default="true" id="5c16c96f-9759-4e3e-9325-80d149bb462a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run.sh" beforeDir="false" afterPath="$PROJECT_DIR$/run.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pharmacy_counting.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/pharmacy_counting.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -55,11 +54,11 @@
     <session id="-571848215">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.open.time.5" value="2" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -86,26 +85,26 @@
         <counts>
           <entry key="dirty_data" value="1" />
           <entry key="input_pandas" value="3" />
-          <entry key="py" value="3667" />
+          <entry key="py" value="3724" />
           <entry key="sh" value="1" />
-          <entry key="txt" value="312" />
+          <entry key="txt" value="327" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="317" />
-          <entry key="Python" value="3667" />
+          <entry key="PLAIN_TEXT" value="332" />
+          <entry key="Python" value="3724" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/pharmacy_counting.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="301">
-              <caret line="143" selection-start-line="143" selection-end-line="143" />
+            <state relative-caret-position="265">
+              <caret line="42" column="31" selection-start-line="42" selection-start-column="31" selection-end-line="42" selection-end-column="31" />
               <folding>
                 <element signature="e#511#520#0" expanded="true" />
               </folding>
@@ -113,11 +112,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/run.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            <state relative-caret-position="75">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
@@ -125,8 +124,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/output/top_drug_cost_test">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-34774">
-              <caret line="5" column="46" lean-forward="true" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="46" />
+            <state relative-caret-position="75">
+              <caret line="5" column="46" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -134,8 +133,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/insight_testsuite/unit_tests/pharmacy_countingTest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-179">
-              <caret column="43" lean-forward="true" selection-start-column="43" selection-end-column="43" />
+            <state>
+              <caret column="43" selection-start-column="43" selection-end-column="43" />
               <folding>
                 <element signature="e#45#60#0" expanded="true" />
                 <marker date="1550534273505" expanded="true" signature="487:492" ph="..." />
@@ -156,7 +155,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/insight_testsuite/unit_tests/ValidationTest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
+            <state relative-caret-position="390">
               <caret line="29" column="23" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
               <folding>
                 <element signature="e#45#60#0" expanded="true" />
@@ -169,8 +168,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pharmacy_counting_using_pandas.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="406">
-              <caret line="41" column="24" lean-forward="true" selection-start-line="41" selection-start-column="24" selection-end-line="41" selection-end-column="24" />
+            <state relative-caret-position="540">
+              <caret line="41" column="24" selection-start-line="41" selection-start-column="24" selection-end-line="41" selection-end-column="24" />
               <folding>
                 <element signature="e#143#162#0" expanded="true" />
               </folding>
@@ -211,8 +210,8 @@
         <option value="$PROJECT_DIR$/insight_testsuite/unit_tests/input/dirty_data" />
         <option value="$PROJECT_DIR$/insight_testsuite/unit_tests/pharmacy_countingTest.py" />
         <option value="$PROJECT_DIR$/insight_testsuite/unit_tests/ValidationTest.py" />
-        <option value="$PROJECT_DIR$/src/pharmacy_counting.py" />
         <option value="$PROJECT_DIR$/run.sh" />
+        <option value="$PROJECT_DIR$/src/pharmacy_counting.py" />
       </list>
     </option>
   </component>
@@ -675,7 +674,14 @@
       <option name="project" value="LOCAL" />
       <updated>1550537379135</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="shell scripting">
+      <created>1550537520300</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1550537520300</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -712,14 +718,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24947146" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32891566" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49964765" visible="true" weight="0.3421687" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49964765" weight="0.3421687" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.32891566" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -770,14 +775,15 @@
     <MESSAGE value="Validation failed on Test Data of large size" />
     <MESSAGE value="need to handle:&#10;&#10;drug_name,num_prescriber,total_cost&#10;,2,1745.8899999999999&#10; ALEX&quot;,1,599.49&#10; D.D.S.&quot;,1,209.5&#10; D.M.D&quot;,1,1446.41&#10; JR.&quot;,1,112.04&#10; PA&quot;,1,9391.17&#10; PC&quot;,1,337154.89999999997&#10; PLLC&quot;,2,795350.9400000002&#10; PMHNP-BC&quot;,1,12646.09&#10;&quot;,6,1725477.9500000007&#10;&quot;PANCRELIPASE 5,289,446807.6299999999" />
     <MESSAGE value="handled:&#10;&#10;drug_name,num_prescriber,total_cost&#10;,2,1745.8899999999999&#10; ALEX&quot;,1,599.49&#10; D.D.S.&quot;,1,209.5&#10; D.M.D&quot;,1,1446.41&#10; JR.&quot;,1,112.04&#10; PA&quot;,1,9391.17&#10; PC&quot;,1,337154.89999999997&#10; PLLC&quot;,2,795350.9400000002&#10; PMHNP-BC&quot;,1,12646.09&#10;&quot;,6,1725477.9500000007&#10;&quot;PANCRELIPASE 5,289,446807.6299999999" />
-    <option name="LAST_COMMIT_MESSAGE" value="handled:&#10;&#10;drug_name,num_prescriber,total_cost&#10;,2,1745.8899999999999&#10; ALEX&quot;,1,599.49&#10; D.D.S.&quot;,1,209.5&#10; D.M.D&quot;,1,1446.41&#10; JR.&quot;,1,112.04&#10; PA&quot;,1,9391.17&#10; PC&quot;,1,337154.89999999997&#10; PLLC&quot;,2,795350.9400000002&#10; PMHNP-BC&quot;,1,12646.09&#10;&quot;,6,1725477.9500000007&#10;&quot;PANCRELIPASE 5,289,446807.6299999999" />
+    <MESSAGE value="shell scripting" />
+    <option name="LAST_COMMIT_MESSAGE" value="shell scripting" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/src/pharmacy_counting.py</url>
-          <line>57</line>
+          <line>73</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
@@ -947,6 +953,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output/top_drug_cost_test">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="46" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/insight_testsuite/unit_tests/pharmacy_countingTest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="43" selection-start-column="43" selection-end-column="43" />
+          <folding>
+            <element signature="e#45#60#0" expanded="true" />
+            <marker date="1550534273505" expanded="true" signature="487:492" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/insight_testsuite/unit_tests/input/dirty_data">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -954,22 +981,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pharmacy_counting_using_pandas.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="41" column="24" lean-forward="true" selection-start-line="41" selection-start-column="24" selection-end-line="41" selection-end-column="24" />
-          <folding>
-            <element signature="e#143#162#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/insight_testsuite/unit_tests/ValidationTest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
+        <state relative-caret-position="390">
           <caret line="29" column="23" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
           <folding>
             <element signature="e#45#60#0" expanded="true" />
@@ -978,38 +992,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/output/top_drug_cost_test">
+    <entry file="file://$PROJECT_DIR$/src/pharmacy_counting_using_pandas.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-34774">
-          <caret line="5" column="46" lean-forward="true" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/insight_testsuite/unit_tests/pharmacy_countingTest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-179">
-          <caret column="43" lean-forward="true" selection-start-column="43" selection-end-column="43" />
+        <state relative-caret-position="540">
+          <caret line="41" column="24" selection-start-line="41" selection-start-column="24" selection-end-line="41" selection-end-column="24" />
           <folding>
-            <element signature="e#45#60#0" expanded="true" />
-            <marker date="1550534273505" expanded="true" signature="487:492" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pharmacy_counting.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="143" selection-start-line="143" selection-end-line="143" />
-          <folding>
-            <element signature="e#511#520#0" expanded="true" />
+            <element signature="e#143#162#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/run.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pharmacy_counting.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="42" column="31" selection-start-line="42" selection-start-column="31" selection-end-line="42" selection-end-column="31" />
+          <folding>
+            <element signature="e#511#520#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
