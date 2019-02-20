@@ -17,12 +17,9 @@ BENZTROPINE MESYLATE,1,1500
 AMBIEN,2,300
 
 """
-import os
-import sys
 import time
 from src.pharmacy_counting_implementation import process_input_file, create_output, peek
 
-sys.path.insert(0, os.path.basename(__file__))
 
 # It takes one minute to process 24 million records
 
