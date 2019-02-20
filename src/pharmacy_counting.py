@@ -17,6 +17,7 @@ BENZTROPINE MESYLATE,1,1500
 AMBIEN,2,300
 
 """
+import sys
 import time
 from src.pharmacy_counting_implementation import process_input_file, create_output, peek
 
