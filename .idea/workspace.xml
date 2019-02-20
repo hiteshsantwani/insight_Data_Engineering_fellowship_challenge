@@ -6,9 +6,7 @@
     </enabled-run-configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c16c96f-9759-4e3e-9325-80d149bb462a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/pharmacy_counting.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/pharmacy_counting.py" afterDir="false" />
-    </list>
+    <list default="true" id="5c16c96f-9759-4e3e-9325-80d149bb462a" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +104,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="md" value="647" />
-          <entry key="py" value="143" />
+          <entry key="py" value="150" />
           <entry key="txt" value="65" />
         </counts>
       </usages-collector>
@@ -114,7 +112,7 @@
         <counts>
           <entry key="Markdown" value="647" />
           <entry key="PLAIN_TEXT" value="65" />
-          <entry key="Python" value="143" />
+          <entry key="Python" value="150" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -137,19 +135,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/pharmacy_counting.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="106">
-              <caret line="19" column="10" lean-forward="true" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+              <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+              <folding>
+                <element signature="e#511#521#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pharmacy_counting_implementation.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="241">
+            <state relative-caret-position="330">
               <caret line="22" column="27" lean-forward="true" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
               <folding>
                 <element signature="e#511#520#0" expanded="true" />
@@ -194,8 +195,8 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/insight_testsuite/unit_tests/ValidationTest.py" />
         <option value="$PROJECT_DIR$/insight_testsuite/unit_tests/pharmacy_countingTest.py" />
-        <option value="$PROJECT_DIR$/src/pharmacy_counting.py" />
         <option value="$PROJECT_DIR$/src/pharmacy_counting_implementation.py" />
+        <option value="$PROJECT_DIR$/src/pharmacy_counting.py" />
       </list>
     </option>
   </component>
@@ -755,7 +756,14 @@
       <option name="project" value="LOCAL" />
       <updated>1550643435402</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="Modular and Unit testable">
+      <created>1550643873534</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1550643873534</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1077,19 +1085,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pharmacy_counting.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="19" column="10" lean-forward="true" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pharmacy_counting_implementation.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
+        <state relative-caret-position="330">
           <caret line="22" column="27" lean-forward="true" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
           <folding>
             <element signature="e#511#520#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pharmacy_counting.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+          <folding>
+            <element signature="e#511#521#0" expanded="true" />
           </folding>
         </state>
       </provider>
