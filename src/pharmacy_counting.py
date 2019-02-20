@@ -19,17 +19,17 @@ AMBIEN,2,300
 """
 import sys
 import time
-sys.path.append('src')
+sys.path.insert('src')
 
 import src.pharmacy_counting_implementation as imp
 
 
 # It takes one minute to process 24 million records
 
-#inputfile, outputfile = sys.argv[1:]
+inputfile, outputfile = sys.argv[1:]
 
-inputfile = "/Users/hiteshsantwani/Desktop/Insight Fellowship Coding challenge/Submission/insight_Data_Engineering_fellowship_challenge/input/de_cc_data.txt"
-outputfile = "/Users/hiteshsantwani/Desktop/Insight Fellowship Coding challenge/Submission/insight_Data_Engineering_fellowship_challenge/output/top_drug_cost_test"
+#inputfile = "/Users/hiteshsantwani/Desktop/Insight Fellowship Coding challenge/Submission/insight_Data_Engineering_fellowship_challenge/input/de_cc_data.txt"
+#outputfile = "/Users/hiteshsantwani/Desktop/Insight Fellowship Coding challenge/Submission/insight_Data_Engineering_fellowship_challenge/output/top_drug_cost_test"
 
 print("Start")
 start = time.time()
