@@ -19,7 +19,9 @@ AMBIEN,2,300
 """
 import sys
 import time
-sys.path.insert(0, 'src')
+from pathlib import Path
+
+sys.path.insert(0, Path().absolute())
 
 import src.pharmacy_counting_implementation as imp
 
