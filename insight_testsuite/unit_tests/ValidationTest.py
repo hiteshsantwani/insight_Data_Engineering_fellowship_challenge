@@ -3,7 +3,7 @@
 import unittest
 from pathlib import Path
 from src.pharmacy_counting_using_pandas import solutionUsingPandas
-from src.pharmacy_counting import process_input_file, create_output
+from src.pharmacy_counting_implementation import process_input_file, create_output
 
 class validate_Op_with_Pandas(unittest.TestCase):
 

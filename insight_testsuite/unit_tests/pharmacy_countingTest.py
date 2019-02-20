@@ -2,7 +2,7 @@
 
 import unittest
 from pathlib import Path
-from src.pharmacy_counting import process_input_file, create_output, handle_misaligned_record
+from src.pharmacy_counting_implementation import process_input_file, create_output, handle_misaligned_record
 
 
 class test_my_solution(unittest.TestCase):
@@ -12,7 +12,7 @@ class test_my_solution(unittest.TestCase):
         path = str(file) + "/input/itcont.txt"
 
         lines_count = process_input_file(path)
-        print(lines_count)
+        print('line count', lines_count)
         assert lines_count != 0
 
 
