@@ -2,7 +2,7 @@
 
 import unittest
 from pathlib import Path
-from src.pharmacy_counting_implementation import process_input_file, create_output, handle_misaligned_record
+from src.pharmacy_counting import process_input_file, create_output, handle_misaligned_record
 
 
 class test_my_solution(unittest.TestCase):
