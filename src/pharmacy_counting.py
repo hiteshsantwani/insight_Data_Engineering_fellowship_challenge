@@ -143,7 +143,7 @@ def create_output(output_file_Name):
     with open(output_file_Name, 'wb') as output:
         output.write(b'drug_name,num_prescriber,total_cost\n')
 
-        for drug in sorted(cost_dictionary.items(), key=lambda x: (x[1], x[0]), reverse=True):
+        for drug, value in sorted(cost_dictionary.items(), key=lambda x: (x[1], x[0]), reverse=True):
             next_line = ','.join([drug, str(len(names_dictionary[drug])), str(round(cost_dictionary[drug], Two))])
             next_line += '\n'
             output.write(bytes(next_line, ENCODING))
@@ -154,10 +154,10 @@ def create_output(output_file_Name):
 
 # It takes one minute to process 24 million records
 
-inputfile, outputfile = sys.argv[1:]
+#inputfile, outputfile = sys.argv[1:]
 
-#inputfile = "/Users/hiteshsantwani/Desktop/Insight Fellowship Coding challenge/MySolution2/insight_Data_Engineering_fellowship_challenge/input/de_cc_data.txt"
-#outputfile = "/Users/hiteshsantwani/Desktop/Insight Fellowship Coding challenge/MySolution2/insight_Data_Engineering_fellowship_challenge/output/top_drug_cost_test"
+inputfile = "/Users/hiteshsantwani/Desktop/Insight Fellowship Coding challenge/MySolution2/insight_Data_Engineering_fellowship_challenge/input/itcont.txt"
+outputfile = "/Users/hiteshsantwani/Desktop/Insight Fellowship Coding challenge/MySolution2/insight_Data_Engineering_fellowship_challenge/output/top_drug_cost_test"
 
 print("Start")
 start = time.time()
