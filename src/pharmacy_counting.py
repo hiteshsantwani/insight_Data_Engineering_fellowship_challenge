@@ -51,7 +51,8 @@ def peek():
         lineCount = ZERO
         while len(record) > ZERO and lineCount < 10:
             lineCount += ONE
-            print(record.decode(ENCODING))
+
+            print(record.decode(ENCODING), end="")
             record = output.readline()
 
 
