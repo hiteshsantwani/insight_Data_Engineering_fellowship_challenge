@@ -145,7 +145,7 @@ def create_output(output_file_Name):
         output.write(b'drug_name,num_prescriber,total_cost\n')
 
         for drug, value in sorted(cost_dictionary.items(), key=lambda x: (x[1], x[0]), reverse=True):
-            next_line = ','.join([drug, str(len(names_dictionary[drug])), str(round(cost_dictionary[drug], Two))])
+            next_line = ','.join([drug, str(len(names_dictionary[drug])), str(round(cost_dictionary[drug]))])
             next_line += '\n'
             output.write(bytes(next_line, ENCODING))
 
