@@ -19,7 +19,7 @@ AMBIEN,2,300
 """
 import sys
 import time
-from src.pharmacy_counting_implementation import process_input_file, create_output, peek
+import src.pharmacy_counting_implementation as imp
 
 
 # It takes one minute to process 24 million records
@@ -31,10 +31,10 @@ inputfile, outputfile = sys.argv[1:]
 
 print("Start")
 start = time.time()
-print('Total Lines Processed', process_input_file(inputfile))
+print('Total Lines Processed', imp.process_input_file(inputfile))
 end = time.time()
 
 print('It took: ', end - start, 'Seconds')
-create_output(outputfile)
+imp.create_output(outputfile)
 
-peek(outputfile)
+imp.peek(outputfile)
