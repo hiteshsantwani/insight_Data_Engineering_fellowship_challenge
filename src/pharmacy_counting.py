@@ -154,10 +154,10 @@ def create_output(output_file_Name):
 
 # It takes one minute to process 24 million records
 
-#inputfile, outputfile = sys.argv[1:]
+inputfile, outputfile = sys.argv[1:]
 
-inputfile = "/Users/hiteshsantwani/Desktop/Insight Fellowship Coding challenge/MySolution2/insight_Data_Engineering_fellowship_challenge/input/itcont.txt"
-outputfile = "/Users/hiteshsantwani/Desktop/Insight Fellowship Coding challenge/MySolution2/insight_Data_Engineering_fellowship_challenge/output/top_drug_cost_test"
+#inputfile = "/Users/hiteshsantwani/Desktop/Insight Fellowship Coding challenge/MySolution2/insight_Data_Engineering_fellowship_challenge/input/itcont.txt"
+#outputfile = "/Users/hiteshsantwani/Desktop/Insight Fellowship Coding challenge/MySolution2/insight_Data_Engineering_fellowship_challenge/output/top_drug_cost_test"
 
 print("Start")
 start = time.time()
