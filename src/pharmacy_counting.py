@@ -21,7 +21,7 @@ import sys
 import time
 from pathlib import Path
 
-sys.path.insert(0, Path().absolute())
+sys.path.insert(0, Path().cwd())
 
 import src.pharmacy_counting_implementation as imp
 
