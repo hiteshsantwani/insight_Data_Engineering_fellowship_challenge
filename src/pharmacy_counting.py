@@ -163,17 +163,26 @@ def create_output(output_file_Name):
 
 # It takes one minute to process 24 million records
 
-inputfile, outputfile = sys.argv[1:]
+
 
 #inputfile = "/Users/hiteshsantwani/Desktop/Insight Fellowship Coding challenge/Submission/insight_Data_Engineering_fellowship_challenge/input/de_cc_data.txt"
 #outputfile = "/Users/hiteshsantwani/Desktop/Insight Fellowship Coding challenge/Submission/insight_Data_Engineering_fellowship_challenge/output/top_drug_cost_test"
 
-print("Start")
-start = time.time()
-print('Total Lines Processed', process_input_file(inputfile))
-end = time.time()
 
-print('It took: ', end - start, 'Seconds')
-create_output(outputfile)
+"""
 
-peek(outputfile)
+main function to run the algorithm
+
+"""
+def run_algo(inputfile, outputfile):
+    print("Start")
+    start = time.time()
+    print('Total Lines Processed', process_input_file(inputfile))
+    end = time.time()
+    print('It took: ', end - start, 'Seconds')
+    create_output(outputfile)
+    peek(outputfile)
+
+
+inputfile, outputfile = sys.argv[1:]
+run_algo(inputfile, outputfile)

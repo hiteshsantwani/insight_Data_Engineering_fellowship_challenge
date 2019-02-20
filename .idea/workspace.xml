@@ -8,11 +8,8 @@
   <component name="ChangeListManager">
     <list default="true" id="5c16c96f-9759-4e3e-9325-80d149bb462a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/insight_testsuite/unit_tests/ValidationTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/insight_testsuite/unit_tests/ValidationTest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/insight_testsuite/unit_tests/pharmacy_countingTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/insight_testsuite/unit_tests/pharmacy_countingTest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/insight_testsuite/unit_tests/output/top_cost_drug.txt" beforeDir="false" afterPath="$PROJECT_DIR$/insight_testsuite/unit_tests/output/top_cost_drug.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pharmacy_counting.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/pharmacy_counting.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pharmacy_counting_implementation.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -111,22 +108,22 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="md" value="647" />
-          <entry key="py" value="204" />
-          <entry key="txt" value="65" />
+          <entry key="py" value="245" />
+          <entry key="txt" value="94" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Markdown" value="647" />
-          <entry key="PLAIN_TEXT" value="65" />
-          <entry key="Python" value="204" />
+          <entry key="PLAIN_TEXT" value="94" />
+          <entry key="Python" value="245" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="md" value="1" />
           <entry key="py" value="11" />
-          <entry key="sh" value="1" />
+          <entry key="sh" value="3" />
           <entry key="top_drug_cost_test" value="3" />
           <entry key="txt" value="2" />
         </counts>
@@ -134,7 +131,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Markdown" value="1" />
-          <entry key="PLAIN_TEXT" value="6" />
+          <entry key="PLAIN_TEXT" value="8" />
           <entry key="Python" value="11" />
         </counts>
       </usages-collector>
@@ -142,15 +139,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/pharmacy_counting.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2648">
-              <caret line="178" column="16" selection-start-line="178" selection-start-column="16" selection-end-line="178" selection-end-column="16" />
+            <state relative-caret-position="196">
+              <caret line="173" column="5" selection-start-line="173" selection-start-column="5" selection-end-line="173" selection-end-column="5" />
               <folding>
                 <element signature="e#511#520#0" expanded="true" />
               </folding>
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/run.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/insight_testsuite/run_tests.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1093" />
           </provider>
         </entry>
       </file>
@@ -162,16 +175,19 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/insight_testsuite/unit_tests/pharmacy_countingTest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+            <state relative-caret-position="210">
+              <caret line="14" column="40" lean-forward="true" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
+              <folding>
+                <element signature="e#45#60#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/insight_testsuite/unit_tests/ValidationTest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
+            <state relative-caret-position="226">
               <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
               <folding>
                 <element signature="e#45#60#0" expanded="true" />
@@ -215,10 +231,10 @@
         <option value="$PROJECT_DIR$/run.sh" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/pharmacy_counting_implementation.py" />
-        <option value="$PROJECT_DIR$/src/pharmacy_counting.py" />
-        <option value="$PROJECT_DIR$/src/__init__.py" />
         <option value="$PROJECT_DIR$/insight_testsuite/unit_tests/ValidationTest.py" />
         <option value="$PROJECT_DIR$/insight_testsuite/unit_tests/pharmacy_countingTest.py" />
+        <option value="$PROJECT_DIR$/src/__init__.py" />
+        <option value="$PROJECT_DIR$/src/pharmacy_counting.py" />
       </list>
     </option>
   </component>
@@ -315,7 +331,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.pharmacy_counting">
+  <component name="RunManager" selected="Python tests.Unnamed">
     <configuration name="Unnamed" type="PythonConfigurationType" factoryName="Python">
       <module name="MySolution" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -820,22 +836,17 @@
       <option name="project" value="LOCAL" />
       <updated>1550645003677</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="reversed modular changes">
+      <created>1550645600990</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1550645600990</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unnamed - 2019.02.18 at 19h 09m 45s.xml">
-      <configuration name="Unnamed" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unnamed - 2019.02.18 at 19h 10m 08s.xml">
-      <configuration name="Unnamed" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unnamed - 2019.02.18 at 19h 10m 14s.xml">
-      <configuration name="Unnamed" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_pharmacy_countingTest_test_my_solution_test_handle_misaligned_record - 2019.02.20 at 00h 45m 42s.xml">
-      <configuration name="Unittests for pharmacy_countingTest.test_my_solution.test_handle_misaligned_record" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_in_pharmacy_countingTest_py - 2019.02.20 at 00h 47m 50s.xml">
       <configuration name="Unittests in pharmacy_countingTest.py" configurationId="tests" />
     </history-entry>
@@ -854,6 +865,18 @@
     <history-entry file="Unnamed - 2019.02.20 at 01h 05m 24s.xml">
       <configuration name="Unnamed" configurationId="tests" />
     </history-entry>
+    <history-entry file="Unittests_in_pharmacy_countingTest_py - 2019.02.20 at 01h 54m 09s.xml">
+      <configuration name="Unittests in pharmacy_countingTest.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_pharmacy_countingTest_py - 2019.02.20 at 01h 54m 17s.xml">
+      <configuration name="Unittests in pharmacy_countingTest.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_pharmacy_countingTest_py - 2019.02.20 at 01h 56m 10s.xml">
+      <configuration name="Unittests in pharmacy_countingTest.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unnamed - 2019.02.20 at 01h 56m 52s.xml">
+      <configuration name="Unnamed" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -863,7 +886,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32891566" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49964765" weight="0.3421687" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49964765" visible="true" weight="0.3421687" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.32891566" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -918,7 +941,8 @@
     <MESSAGE value="Fixed Bug" />
     <MESSAGE value="Updated Readme file" />
     <MESSAGE value="Modular and Unit testable" />
-    <option name="LAST_COMMIT_MESSAGE" value="Modular and Unit testable" />
+    <MESSAGE value="reversed modular changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="reversed modular changes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -968,11 +992,6 @@
           <first_editor />
           <second_editor />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/insight_testsuite/run_tests.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-240" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/output/README.md">
@@ -1107,30 +1126,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/run.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/output/top_drug_cost_test">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
           <caret line="380" column="10" selection-start-line="380" selection-end-line="380" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pharmacy_counting.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2648">
-          <caret line="178" column="16" selection-start-line="178" selection-start-column="16" selection-end-line="178" selection-end-column="16" />
-          <folding>
-            <element signature="e#511#520#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1146,17 +1145,45 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/insight_testsuite/unit_tests/pharmacy_countingTest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+        <state relative-caret-position="210">
+          <caret line="14" column="40" lean-forward="true" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
+          <folding>
+            <element signature="e#45#60#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/insight_testsuite/unit_tests/ValidationTest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
+        <state relative-caret-position="226">
           <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
           <folding>
             <element signature="e#45#60#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/insight_testsuite/run_tests.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1093" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pharmacy_counting.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="173" column="5" selection-start-line="173" selection-start-column="5" selection-end-line="173" selection-end-column="5" />
+          <folding>
+            <element signature="e#511#520#0" expanded="true" />
           </folding>
         </state>
       </provider>
