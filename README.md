@@ -1,5 +1,40 @@
 # insight_Data_Engineering_fellowship_challenge
 
+# Instructions to Run
+
+Go to main directory of the project and run the following in the terminal:
+python3 ./src/pharmacy_counting.py ./input/itcont.txt ./output/top_cost_drug.txt
+
+or
+
+python ./src/pharmacy_counting.py ./input/itcont.txt ./output/top_cost_drug.txt
+
+or 
+
+Execute Execute ./run.sh
+
+# My Approach to Solution
+
+• Map each drug with the total coast
+
+• Map each drug with no of prescribers
+
+• Iterate Over these maps and generate the output file
+
+• Main implementation is in file pharmacy_counting.py
+
+## Note:
+Pandas is not used to create the solution but only for the validation purpose: 
+pharmacy_counting_using_pandas.py
+
+• Solution has been validated against the output from Pandas library
+
+# Further Improvements:
+
+• It takes a minute to process 25 million records and using O(n)
+
+• To further increase run time Apache Spark(parallelization) can be used.
+
 # Problem
 Imagine you are a data engineer working for an online pharmacy. You are asked to generate a list of all drugs, the total number of UNIQUE individuals who prescribed the medication, and the total drug cost, which must be listed in descending order based on the total drug cost and if there is a tie, drug name in ascending order.
 

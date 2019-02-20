@@ -157,7 +157,7 @@ def create_output(output_file_Name):
 
 inputfile, outputfile = sys.argv[1:]
 
-#inputfile = "/Users/hiteshsantwani/Desktop/Insight Fellowship Coding challenge/Submission/insight_Data_Engineering_fellowship_challenge/input/itcont.txt"
+#inputfile = "/Users/hiteshsantwani/Desktop/Insight Fellowship Coding challenge/Submission/insight_Data_Engineering_fellowship_challenge/input/de_cc_data.txt"
 #outputfile = "/Users/hiteshsantwani/Desktop/Insight Fellowship Coding challenge/Submission/insight_Data_Engineering_fellowship_challenge/output/top_drug_cost_test"
 
 print("Start")
