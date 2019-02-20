@@ -3,6 +3,7 @@
 # Instructions to Run
 
 Go to main directory of the project and run the following in the terminal:
+
 python3 ./src/pharmacy_counting.py ./input/itcont.txt ./output/top_cost_drug.txt
 
 or
@@ -11,7 +12,7 @@ python ./src/pharmacy_counting.py ./input/itcont.txt ./output/top_cost_drug.txt
 
 or 
 
-Execute Execute ./run.sh
+Execute ./run.sh
 
 # My Approach to Solution
 
@@ -39,8 +40,9 @@ pharmacy_counting_using_pandas.py
 
 • Please comment following lines in **pharmacy_counting.py** before running unit test cases
 
-inputfile, outputfile = sys.argv[1:]
-run_algo(inputfile, outputfile)
+**inputfile, outputfile = sys.argv[1:]**
+
+**run_algo(inputfile, outputfile)**
 
 # Problem
 Imagine you are a data engineer working for an online pharmacy. You are asked to generate a list of all drugs, the total number of UNIQUE individuals who prescribed the medication, and the total drug cost, which must be listed in descending order based on the total drug cost and if there is a tie, drug name in ascending order.

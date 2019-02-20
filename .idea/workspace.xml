@@ -7,9 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5c16c96f-9759-4e3e-9325-80d149bb462a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/insight_testsuite/unit_tests/output/top_cost_drug.txt" beforeDir="false" afterPath="$PROJECT_DIR$/insight_testsuite/unit_tests/output/top_cost_drug.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pharmacy_counting.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/pharmacy_counting.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -107,21 +106,21 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="md" value="647" />
-          <entry key="py" value="245" />
+          <entry key="md" value="776" />
+          <entry key="py" value="247" />
           <entry key="txt" value="94" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Markdown" value="647" />
+          <entry key="Markdown" value="776" />
           <entry key="PLAIN_TEXT" value="94" />
-          <entry key="Python" value="245" />
+          <entry key="Python" value="247" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="md" value="1" />
+          <entry key="md" value="3" />
           <entry key="py" value="11" />
           <entry key="sh" value="3" />
           <entry key="top_drug_cost_test" value="3" />
@@ -130,7 +129,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Markdown" value="1" />
+          <entry key="Markdown" value="3" />
           <entry key="PLAIN_TEXT" value="8" />
           <entry key="Python" value="11" />
         </counts>
@@ -139,14 +138,36 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pharmacy_counting.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="173" column="5" selection-start-line="173" selection-start-column="5" selection-end-line="173" selection-end-column="5" />
+            <state relative-caret-position="394">
+              <caret line="185" lean-forward="true" selection-start-line="185" selection-end-line="187" selection-end-column="31" />
               <folding>
                 <element signature="e#511#520#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/output/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor />
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="76">
+                <caret line="23" column="57" selection-start-line="23" selection-start-column="57" selection-end-line="23" selection-end-column="57" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -229,12 +250,12 @@
         <option value="$PROJECT_DIR$/src/pharmacy_counting_using_pandas.py" />
         <option value="$PROJECT_DIR$/insight_testsuite/unit_tests/input/dirty_data" />
         <option value="$PROJECT_DIR$/run.sh" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/pharmacy_counting_implementation.py" />
         <option value="$PROJECT_DIR$/insight_testsuite/unit_tests/ValidationTest.py" />
         <option value="$PROJECT_DIR$/insight_testsuite/unit_tests/pharmacy_countingTest.py" />
         <option value="$PROJECT_DIR$/src/__init__.py" />
         <option value="$PROJECT_DIR$/src/pharmacy_counting.py" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -499,13 +520,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1550355123585</updated>
-    </task>
-    <task id="LOCAL-00001" summary="test run">
-      <created>1550364291793</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1550364291793</updated>
     </task>
     <task id="LOCAL-00002" summary="test run">
       <created>1550364892419</created>
@@ -843,16 +857,17 @@
       <option name="project" value="LOCAL" />
       <updated>1550645600990</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="reversed modular changes">
+      <created>1550646357672</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1550646357673</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_in_pharmacy_countingTest_py - 2019.02.20 at 00h 47m 50s.xml">
-      <configuration name="Unittests in pharmacy_countingTest.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unnamed - 2019.02.20 at 00h 48m 39s.xml">
-      <configuration name="Unnamed" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_in_pharmacy_countingTest_py - 2019.02.20 at 00h 48m 46s.xml">
       <configuration name="Unittests in pharmacy_countingTest.py" configurationId="tests" />
     </history-entry>
@@ -875,6 +890,12 @@
       <configuration name="Unittests in pharmacy_countingTest.py" configurationId="tests" />
     </history-entry>
     <history-entry file="Unnamed - 2019.02.20 at 01h 56m 52s.xml">
+      <configuration name="Unnamed" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_pharmacy_countingTest_py - 2019.02.20 at 02h 06m 50s.xml">
+      <configuration name="Unittests in pharmacy_countingTest.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unnamed - 2019.02.20 at 02h 06m 58s.xml">
       <configuration name="Unnamed" configurationId="tests" />
     </history-entry>
   </component>
@@ -994,14 +1015,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/output/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/output/pharmacy_counting.py" />
     <entry file="file://$USER_HOME$/.conda/envs/untitled1/lib/python3.6/codecs.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -1106,16 +1119,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="249">
-            <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pharmacy_counting_using_pandas.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="615">
@@ -1180,11 +1183,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pharmacy_counting.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="173" column="5" selection-start-line="173" selection-start-column="5" selection-end-line="173" selection-end-column="5" />
+        <state relative-caret-position="394">
+          <caret line="185" lean-forward="true" selection-start-line="185" selection-end-line="187" selection-end-column="31" />
           <folding>
             <element signature="e#511#520#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="76">
+            <caret line="23" column="57" selection-start-line="23" selection-start-column="57" selection-end-line="23" selection-end-column="57" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
